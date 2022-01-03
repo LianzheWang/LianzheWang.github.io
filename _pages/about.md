@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! My name is Lianzhe Wang (王联喆). I am a Master's student at Tsinghua University, advised by [Prof. Wenwu Zhu](https://ieeexplore.ieee.org/author/37065056700). I am also fortunate to be working with [Dr. Shanghang Zhang](https://www.shanghangzhang.com) from UC Berkeley during my graduate study.
+Welcome! My name is Lianzhe Wang (王联喆). I am a Master's student at Tsinghua University, advised by [Prof. Wenwu Zhu](https://ieeexplore.ieee.org/author/37065056700). I am also fortunate to be working with [Dr. Shanghang Zhang](https://www.shanghangzhang.com) from UC Berkeley BAIR during my graduate study.
 
 My research focuses on domain adaptation, semi-supervised learning, and meta-learning. I'm especially interested in improving the generalization ability of deep learning models under continually changing environments.
 
