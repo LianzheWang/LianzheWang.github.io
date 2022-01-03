@@ -12,4 +12,10 @@ In this work, we proposed the active gradual self-training (AGST) algorithm with
 
 We also created a new dataset -- Evolving-Image-Search (EVIS), which shows the evolution of web images in the time range of 12 years. Designed a crawler based on search engine to automatically collect this dataset.
 
-[Download paper here](http://not-available-yet)
+The code and EVIS dataset have been released:
+
+EVIS dataset is released at https://github.com/LianzheWang/EVIS 
+
+Code is available at https://github.com/LianzheWang/Active-Gradual-Domain-Adaptation-Dataset-and-Approach
+
+[Download paper here](http://not-available-yet) (Not available yet)
