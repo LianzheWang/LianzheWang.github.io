@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Lianzhe Wang"
   avatar           : "profile.png"
-  bio              : "Master Student at Tsinghua University, focused on researc related to domain adaptation, semi-supervised learning, and meta-learning."
-  location         : "Beijing, China"
+  bio              : "Master Student at Tsinghua University" # , focused on researc related to domain adaptation, semi-supervised learning, and meta-learning."
+  location         : "China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=EzOHmDkAAAAJ&hl=en"
