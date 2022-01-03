@@ -14,8 +14,8 @@ We also created a new dataset -- Evolving-Image-Search (EVIS), which shows the e
 
 The code and EVIS dataset have been released:
 
-EVIS dataset is released at https://github.com/LianzheWang/EVIS 
+EVIS dataset is released at [here](https://github.com/LianzheWang/EVIS)
 
-Code is available at https://github.com/LianzheWang/Active-Gradual-Domain-Adaptation-Dataset-and-Approach
+Code is available at [here](https://github.com/LianzheWang/Active-Gradual-Domain-Adaptation-Dataset-and-Approach)
 
-[Download paper here](http://not-available-yet) (Not available yet)
+[Paper PDF](http://not-available-yet) (Not available yet)
