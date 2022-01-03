@@ -2,7 +2,7 @@
 title: "Active Gradual Domain Adaptation: Dataset and Approach"
 collection: publications
 permalink: /publication/2022-1-01-paper-tmmagda-number-1
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: 'In this work, we proposed the active gradual self-training (AGST) algorithm with active pseudolabeling and gradual semi-supervised domain adaptation to adapt deep neural networks to the changing environments. We also created a new dataset -- Evolving-Image-Search (EVIS).'
 date: 2022-1-01
 venue: 'IEEE Transaction on Multimedia'
 paperurl: ' '
