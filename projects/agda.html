@@ -22,25 +22,24 @@
     <div id="content-inner">
       
       <div class="section head">
-	<h1>Large-Scale Long-Tailed Recognition in an Open World</h1>
+	<h1>Active Gradual Domain Adaptation: Dataset and Approach</h1>
 
 	<div class="authors">
-	  <a href="https://liuziwei7.github.io/">Ziwei Liu</a><sup>1,2</sup>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href="https://github.com/zhmiao">Zhongqi Miao</a><sup>2</sup>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href="https://xiaohangzhan.github.io/">Xiaohang Zhan</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href="http://pwang.pw/">Jiayun Wang</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href="http://boqinggong.info/">Boqing Gong</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href="https://www1.icsi.berkeley.edu/~stellayu/">Stella X. Yu</a><sup>2</sup>
+	  <a href="https://scholar.google.com/citations?user=Do5jf8oAAAAJ&hl">Shiji Zhou</a><sup>1</sup>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://lianzhewang.github.io/">Lianzhe Wang</a><sup>1</sup>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://www.shanghangzhang.com">Shanghang Zhang</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://pages.mmlab.top">Zhi Wang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://ieeexplore.ieee.org/author/37065056700">Wenwu Zhu</a><sup>1</sup>
 	</div>
 
 	<div class="affiliations">
-	  1. <a href="http://www.cuhk.edu.hk/english/index.html">The Chinese University of Hong Kong</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  1. <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	  2. <a href="https://www.berkeley.edu/">UC Berkeley / ICSI</a>
 	</div>
 
-	<div class="venue">IEEE Conference on Computer Vision and Pattern Recognition (<a href="http://cvpr2019.thecvf.com/" target="_blank">CVPR</a>) 2019, <font color="#e86e14">Oral Presentation</font> </div>
+	<div class="venue">IEEE Transactions on Multimedia (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046" target="_blank">TMM</a>) 2022, </div>
 
-	<div class="venue"> <font color="red" size="2">(HKSTP Best Paper Award)</font> </div>
+	<div class="venue"> <font color="red" size="2">()</font> </div>
       </div>
       
       <center><img src="./agda/intro.png" border="0" width="90%"></center>
@@ -49,7 +48,7 @@
 	<h2>Abstract</h2>
 	<br>
 	<p>
-Real world data often have a long-tailed and open-ended distribution. A practical recognition system must classify among majority and minority classes, generalize from a few known instances, and acknowledge novelty upon a never seen instance. We define Open Long-Tailed Recognition (OLTR) as learning from such naturally distributed data and optimizing the classification accuracy over a balanced test set which include head, tail, and open classes. OLTR must handle imbalanced classification, few-shot learning, and open-set recognition in one integrated algorithm, whereas existing classification approaches focus only on one aspect and  deliver poorly over the entire class spectrum. The key challenges are how to share visual knowledge between head and tail classes and how to reduce confusion between tail and open classes. We develop an integrated OLTR algorithm that maps an image to a feature space such that visual concepts can easily relate to each other based on a learned metric that respects the closed-world classification while acknowledging the novelty of the open world. Our so-called dynamic meta-embedding combines a direct image feature and an associated memory feature, with the feature norm indicating the familiarity to known classes. On three large-scale OLTR datasets we curate from object-centric ImageNet, scene-centric Places, and face-centric MS1M data, our method consistently outperforms the state-of-the-art. Our code, datasets, and models enable future OLTR research and are publicly available.
+	Adapting deep neural networks to changing environments is critical in practical utility, especially for online web applications, where the model has access to some labeled data from the source domain, unlabeled data, and limited labels from a gradually changing target domain. In this paper, we deal with such problem via active gradual domain adaptation, where the learner continually and actively selects the most informative labels from the target to enhance the label efficiency and utilizes both labeled and unlabeled samples to improve the model adaptation under gradual domain drift. We propose the active gradual self-training (AGST) algorithm with the novel designs of active pseudolabeling and gradual semi-supervised domain adaptation. Specifically, AGST pseudolabels the samples with high confidence, and selects the most informative labels from the unconfident samples by both uncertainty and diversity, then gradually self-trains itself by confident pseudolabels, active queried informative labels, and data features. In our experiment, we create a new dataset -- Evolving-Image-Search (EVIS) collected from the web search engine with gradual domain drift. The experiment results on synthetic dataset, real-world dataset and EVIS dataset show that AGST achieves up to 62\% accuracy improvement against unsupervised gradual self-training with only 5\% additional labels, and 19\% than directly applying CLUE, which demonstrated the effectiveness of the designs of active pseudolabel and gradual semi-supervised domain adaptation.
 	</p>
       </div>
 
