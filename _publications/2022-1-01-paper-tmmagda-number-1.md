@@ -7,15 +7,14 @@ date: 2022-1-01
 venue: 'IEEE Transaction on Multimedia'
 paperurl: 'https://ieeexplore.ieee.org/document/9681347 '
 citation: '
-@ARTICLE{9681347,  
+@ARTICLE{Zhou2021,
 author={Zhou, Shiji and Wang, Lianzhe and Zhang, Shanghang and Wang, Zhi and Zhu, Wenwu},  
 journal={IEEE Transactions on Multimedia},   
 title={Active Gradual Domain Adaptation: Dataset and Approach},   
-year={2022},  
-volume={},  
-number={},  
-pages={1-1},  
-doi={10.1109/TMM.2022.3142524}}
+year={2022},   
+pages={1-1}, 
+doi={10.1109/TMM.2022.3142524}
+}
 '
 ---
 [Project Website](https://lianzhewang.github.io/projects/agda.html)
