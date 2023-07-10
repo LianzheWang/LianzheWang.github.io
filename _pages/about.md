@@ -10,15 +10,15 @@ redirect_from:
 
 About me
 ------
-Welcome! My name is Lianzhe Wang. I am a Master's student at Tsinghua University, advised by [Prof. Wenwu Zhu](https://ieeexplore.ieee.org/author/37065056700). I am also fortunate to be working with [Dr. Shanghang Zhang](https://www.shanghangzhang.com) from UC Berkeley BAIR during my graduate study.
+Welcome! My name is Lianzhe Wang. I am a Master's student at Tsinghua University, advised by [Prof. Wenwu Zhu](https://ieeexplore.ieee.org/author/37065056700). I am also fortunate to be mentored by [Dr. Shanghang Zhang](https://www.shanghangzhang.com) from UC Berkeley BAIR during my graduate study.
 
-My research focuses on domain adaptation, semi-supervised learning, and meta-learning. I'm especially interested in improving the generalization ability of deep learning models under continually changing environments.
+My research interests include Generalization of Machine Learning, Meta-learning, and Recommender Systems. I am especially interested in improving the generalization ability of deep learning models under continually changing environments.
 
 
 News
 ------
-* Our paper [Online Continual Adaptation with Active Self-Training](https://arxiv.org/abs/2106.06526) has been accepted by Artificial Intelligence and Statistics (AISTATS) 2022! We will release the code soon.
-* Our paper [Active Gradual Domain Adaptation: Dataset and Approach](https://lianzhewang.github.io/publication/2022-1-01-paper-tmmagda-number-1) has been accepted as a journal article on IEEE Transactions on Multimedia (TMM)! We have released the [code](https://github.com/LianzheWang/Active-Gradual-Domain-Adaptation-Dataset-and-Approach) and [dataset](https://github.com/LianzheWang/EVIS). Detailed information could be found in our [project website](https://lianzhewang.github.io/projects/agda.html).
+* Our paper [Online Continual Adaptation with Active Self-Training](https://arxiv.org/abs/2106.06526) has been accepted by Artificial Intelligence and Statistics (AISTATS) 2022!
+* Our paper [Active Gradual Domain Adaptation: Dataset and Approach](https://lianzhewang.github.io/publication/2022-1-01-paper-tmmagda-number-1) has been accepted as a journal article on IEEE Transactions on Multimedia (TMM)!
 
 
 
