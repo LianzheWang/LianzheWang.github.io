@@ -15,10 +15,11 @@ Welcome! My name is Lianzhe Wang. I am a Master's student at Tsinghua University
 My research interests include Generalization of Machine Learning, Meta-learning, and Recommender Systems. I am especially interested in improving the generalization ability of deep learning models under continually changing environments.
 
 
-News
+Updates
 ------
-* Our paper [Online Continual Adaptation with Active Self-Training](https://arxiv.org/abs/2106.06526) has been accepted by Artificial Intelligence and Statistics (AISTATS) 2022!
-* Our paper [Active Gradual Domain Adaptation: Dataset and Approach](https://lianzhewang.github.io/publication/2022-1-01-paper-tmmagda-number-1) has been accepted as a journal article on IEEE Transactions on Multimedia (TMM)!
+* Paper [Improving Generliazaion of Meta-learning with Inverted Regularization at Iner-level](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Improving_Generalization_of_Meta-Learning_With_Inverted_Regularization_at_Inner-Level_CVPR_2023_paper.pdf) has been accepted by The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2023.
+* Paper [Active Gradual Domain Adaptation: Dataset and Approach](https://lianzhewang.github.io/publication/2022-1-01-paper-tmmagda-number-1) has been accepted as a journal article on IEEE Transactions on Multimedia (TMM).
+* Paper [Online Continual Adaptation with Active Self-Training](https://arxiv.org/abs/2106.06526) has been accepted by Artificial Intelligence and Statistics (AISTATS) 2022.
 
 
 
