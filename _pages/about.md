@@ -17,9 +17,9 @@ My research interests include Generalization of Machine Learning, Meta-learning,
 
 Updates
 ------
-* Paper [Improving Generliazaion of Meta-learning with Inverted Regularization at Iner-level](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Improving_Generalization_of_Meta-Learning_With_Inverted_Regularization_at_Inner-Level_CVPR_2023_paper.pdf) has been accepted by the IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR) 2023.
-* Paper [Active Gradual Domain Adaptation: Dataset and Approach](https://lianzhewang.github.io/publication/2022-1-01-paper-tmmagda-number-1) has been accepted as a journal article on IEEE Transactions on Multimedia (TMM).
-* Paper [Online Continual Adaptation with Active Self-Training](https://arxiv.org/abs/2106.06526) has been accepted by Artificial Intelligence and Statistics (AISTATS) 2022.
+* Paper **Improving Generliazaion of Meta-learning with Inverted Regularization at Iner-level** has been accepted by the IEEE / CVF Computer Vision and Pattern Recognition Conference (**CVPR**) 2023. (Please visit [Project Website](https://lianzhewang.github.io/projects/meta-invert-reg.html) for [paper PDF](https://lianzhewang.github.io/papers/CVPR2023-Meta-Invert-Reg.pdf), [slides], and [presentation](https://youtu.be/DbLGnKn3Iv4))
+* Paper **Active Gradual Domain Adaptation: Dataset and Approach** has been accepted as a journal article on IEEE Transactions on Multimedia (**TMM**). (Please vist [Project Website](https://lianzhewang.github.io/projects/agda.html) for [paper PDF](https://lianzhewang.github.io/papers/TMM-Active-Gradual-Domain-Adaptation-Dataset-and-Approach.pdf), [slides](https://docs.google.com/presentation/d/1C3l-XY3XQymGMohp1euLRYyOCwEb8ngA/edit?usp=sharing&ouid=100214977138007504295&rtpof=true&sd=true), [code](https://github.com/LianzheWang/Active-Gradual-Domain-Adaptation-Dataset-and-Approach), and [datasets](https://github.com/LianzheWang/EVIS).)
+* Paper **Online Continual Adaptation with Active Self-Training** has been accepted by Artificial Intelligence and Statistics (**AISTATS**) 2022. ([ArXiv](https://arxiv.org/abs/2106.06526))
 
 
 
