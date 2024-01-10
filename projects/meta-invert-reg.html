@@ -22,13 +22,14 @@
     <div id="content-inner">
       
       <div class="section head">
-	<h1>Active Gradual Domain Adaptation: Dataset and Approach</h1>
+	<h1>Improving Generalization of Meta-learning with Inverted Regularization at Inner-level</h1>
 
 	<div class="authors">
-	  <a href="https://scholar.google.com/citations?user=Do5jf8oAAAAJ&hl">Shiji Zhou</a><sup>1</sup>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	  <a href="https://lianzhewang.github.io/">Lianzhe Wang</a><sup>1</sup>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://arnoldshijizhou.github.io/">Shiji Zhou</a><sup>1</sup>*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	  <a href="https://www.shanghangzhang.com">Shanghang Zhang</a><sup>2</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	  <a href="http://pages.mmlab.top">Zhi Wang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://scholar.google.com/citations?user=KrR9i8YAAAAJ&hl=en">Xu Chu</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://hchang95.github.io/">Heng Chang</a><sup>1</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	  <a href="https://ieeexplore.ieee.org/author/37065056700">Wenwu Zhu</a><sup>1</sup>
 	</div>
 
@@ -37,32 +38,20 @@
 	  2. <a href="https://www.berkeley.edu/">UC Berkeley</a>
 	</div>
 
-	<div class="venue">IEEE Transactions on Multimedia (<a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046" target="_blank">TMM</a>) 2022 </div>
+	<div class="venue">The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<a href="https://cvpr2023.thecvf.com/" target="_blank">CVPR</a>) 2023 </div>
 
 	<div class="venue"> <font color="red" size="2"></font> </div>
       </div>
       
-      <center><img src="./meta-invert-reg/intro.png" border="0" width="95%"></center>
+      <center><img src="./meta-invert-reg/intro23.png" border="0" width="95%"></center>
 
 <div class="section abstract">
 	<h2>Abstract</h2>
 	<br>
 	<p>
-	Adapting deep neural networks to changing environments is critical in practical utility, especially for online web applications, where the model has access to some labeled data from the source domain, unlabeled data, and limited labels from a gradually changing target domain. In this paper, we deal with such problem via active gradual domain adaptation, where the learner continually and actively selects the most informative labels from the target to enhance the label efficiency and utilizes both labeled and unlabeled samples to improve the model adaptation under gradual domain drift. We propose the active gradual self-training (AGST) algorithm with the novel designs of active pseudolabeling and gradual semi-supervised domain adaptation. Specifically, AGST pseudolabels the samples with high confidence, and selects the most informative labels from the unconfident samples by both uncertainty and diversity, then gradually self-trains itself by confident pseudolabels, active queried informative labels, and data features. In our experiment, we create a new dataset -- Evolving-Image-Search (EVIS) collected from the web search engine with gradual domain drift. The experiment results on synthetic dataset, real-world dataset and EVIS dataset show that AGST achieves up to 62\% accuracy improvement against unsupervised gradual self-training with only 5\% additional labels, and 19\% than directly applying CLUE, which demonstrated the effectiveness of the designs of active pseudolabel and gradual semi-supervised domain adaptation.
+	Despite the broad interest in meta-learning, the generalization problem remains one of the significant challenges in this field. Existing works focus on meta-generalization to unseen tasks at the meta-level by regularizing the metaloss, while ignoring that adapted models may not generalize to the task domains at the adaptation level. In this paper, we propose a new regularization mechanism for metalearning – Minimax-Meta Regularization, which employs inverted regularization at the inner loop and ordinary regularization at the outer loop during training. In particular, the inner inverted regularization makes the adapted model more difficult to generalize to task domains; thus, optimizing the outer-loop loss forces the meta-model to learn metaknowledge with better generalization. Theoretically, we prove that inverted regularization improves the meta-testing performance by reducing generalization errors. We conduct extensive experiments on the representative scenarios, and the results show that our method consistently improves the performance of meta-learning algorithms.
 	</p>
       </div>
-
-<div class="section demo">
-	<h2>Presentation</h2>
-	<br>
-	<center>
-		To be uploaded.
-<!-- 	  <iframe width="810" height="480" src="https://www.youtube.com/embed/A45wrs1g8VA" frameborder="0" allowfullscreen></iframe> -->
-<!-- 	</video> -->
-	    </center>
-	    </div>
-
-<br>
       
 <div class="section materials">
 	<h2>Materials</h2>
@@ -71,15 +60,15 @@
            
           <li class="grid">
 	      <div class="griditem">
-		<a href="https://lianzhewang.github.io/papers/TMM-Active-Gradual-Domain-Adaptation-Dataset-and-Approach.pdf" target="_blank" class="imageLink"><img src="./meta-invert-reg/paper.png"></a><br>
-		  <a href="https://lianzhewang.github.io/papers/TMM-Active-Gradual-Domain-Adaptation-Dataset-and-Approach.pdf" target="_blank">Paper</a>
+		<a href="https://lianzhewang.github.io/papers/CVPR2023-Meta-Invert-Reg.pdf" target="_blank" class="imageLink"><img src="./meta-invert-reg/paper23.png"></a><br>
+		  <a href="https://lianzhewang.github.io/papers/CVPR2023-Meta-Invert-Reg.pdf" target="_blank">Paper</a>
 		</div>
 	      </li>
 
 	      <li class="grid">
 	      <div class="griditem">
-		<a href="https://docs.google.com/presentation/d/1C3l-XY3XQymGMohp1euLRYyOCwEb8ngA/edit?usp=sharing&ouid=100214977138007504295&rtpof=true&sd=true" target="_blank" class="imageLink"><img src="./meta-invert-reg/slides.png"></a><br>
-		  <a href="https://docs.google.com/presentation/d/1C3l-XY3XQymGMohp1euLRYyOCwEb8ngA/edit?usp=sharing&ouid=100214977138007504295&rtpof=true&sd=true" target="_blank">Slides</a>
+		<a href="https://lianzhewang.github.io/slides/CVPR2023-Meta-Invert-Reg-Slides-Lianzhe-Wang.pdf" target="_blank" class="imageLink"><img src="./meta-invert-reg/slides23.png"></a><br>
+		  <a href="https://lianzhewang.github.io/slides/CVPR2023-Meta-Invert-Reg-Slides-Lianzhe-Wang.pdf" target="_blank">Slides</a>
 		</div>
 	      </li>
 	  
@@ -89,6 +78,17 @@
 	    
 <br>
 
+<div class="Presentation">
+	<h2>Presentation</h2>
+	<br>
+	<center>
+	  <iframe width="810" height="480" src="https://youtu.be/DbLGnKn3Iv4" frameborder="0" allowfullscreen></iframe>
+	</video>
+	    </center>
+	    </div>
+
+<br>
+	    
 <!-- <div class="section presentation">
 	<h2>Presentation</h2>
 	<center>
@@ -112,7 +112,7 @@
 
 <br> -->
 
-<div class="section data">
+<!-- <div class="section data">
 	<h2>EVIS Dataset</h2>
 	<br>
 	<center>
@@ -139,7 +139,7 @@
 	    </center>
 	    </div>
 
-<br>
+<br> -->
 
 
 
@@ -158,13 +158,13 @@
 	<h2>Citation</h2>
 	<div class="section bibtex">
 	  <pre>
-@ARTICLE{Zhou2021,
-author={Zhou, Shiji and Wang, Lianzhe and Zhang, Shanghang and Wang, Zhi and Zhu, Wenwu},  
-journal={IEEE Transactions on Multimedia},   
-title={Active Gradual Domain Adaptation: Dataset and Approach},   
-year={2022},   
-pages={1-1}, 
-doi={10.1109/TMM.2022.3142524}
+@inproceedings{wang2023improving,
+  title={Improving Generalization of Meta-Learning With Inverted Regularization at Inner-Level},
+  author={Wang, Lianzhe and Zhou, Shiji and Zhang, Shanghang and Chu, Xu and Chang, Heng and Zhu, Wenwu},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7826--7835},
+  year={2023}
+}
 }
 	  </pre>
 	  </div>
